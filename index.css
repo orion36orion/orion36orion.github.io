@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Ruslan;
+    src: url('./fonts/Ruslan_Display/RuslanDisplay.ttf');
+}
+
+@font-face {
+    font-family: Tenor;
+    src: url('./fonts/Tenor_Sans/TenorSans-Regular.ttf');
+}
+
+body {
+    font-family: Tenor;
+}
+
+h1, h3, h4, h5, h6 {
+    font-family: Ruslan;
+}
+
+.wrapper {
+    padding: 0;
+    margin: 0;
+}
+
+.left-side {
+    background-image: url(media/melissa-askew-26341.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: table;
+    float: left;
+}
+
+.left-side-cover {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    min-width: 45vw;
+    max-height: 100vh;
+    max-width: 45vw;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.right-side {
+    font-size: 12pt;
+    padding: 3vh;
+}
